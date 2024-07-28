@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  p {
+      padding: 24px;
+  }
+  
+  button {
+      padding: 32px;
+      margin: 12px;
+      background-color: lightgrey;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+  }
+  
+  .history {
+      font-size: 20px;
+  }
+  
+  .app {
+      width: 27vw;
+      height: 80vh;
+      margin: 0 auto;
+      margin-top: 85px;
+  }
+  
+  .keyboard {
+      display: flex;
+      justify-content: row;
+      align-items: center;
+      flex-direction: column;
+      min-width: 420px;
+  }
+  

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./new_calculator.css">
+</head>
+<body>
+    <div class="app">
+        <p id="history">0</p>
+        <p id="screen">0</p>
+
+        <div class="keyboard">
+            <div>
+                <button onclick="write_number('7')">7</button>
+                <button onclick="write_number('8')">8</button>
+                <button onclick="write_number('9')">9</button>
+                <button onclick="Multi()">*</button>
+            </div>
+            <div>
+                <button onclick="write_number('4')">4</button>
+                <button onclick="write_number('5')">5</button>
+                <button onclick="write_number('6')">6</button>
+                <button onclick="Sum()">+</button>
+            </div>
+            <div>
+                <button onclick="write_number('1')">1</button>
+                <button onclick="write_number('2')">2</button>
+                <button onclick="write_number('3')">3</button>
+                <button onclick="Sub()">-</button>
+            </div>
+            <div>
+                <button onclick="equal()">=</button>
+                <button onclick="write_number('0')">0</button>
+                <button onclick="clean()">C</button>
+                <button onclick="Div()">\</button>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="./new_calculator.js"></script>
+</body>
+</html>
